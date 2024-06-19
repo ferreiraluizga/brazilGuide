@@ -1,0 +1,61 @@
+// Option A: Include all of Bootstrap
+
+// Bootstrap variables
+$primary: #2f4867;
+$info: #336699;
+
+// Boostrap import
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// custom css
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.footer-custom-aboutUs {
+    position: relative;
+}
+
+.footer-custom {
+    position: relative;
+}
+
+@media (min-width: 1920px) {
+    .footer-custom {
+        position: fixed;
+        /* Fixa o footer no rodapé */
+        bottom: 0;
+        /* Alinha o footer na parte inferior */
+        width: 100%;
+        /* Garante que o footer ocupe toda a largura da tela */
+        z-index: 1000;
+        /* Ajusta o z-index conforme necessário */
+    }
+}
+
+@media (min-width: 1680px) {
+    .footer-custom-aboutUs {
+        position: fixed;
+        /* Fixa o footer no rodapé */
+        bottom: 0;
+        /* Alinha o footer na parte inferior */
+        width: 100%;
+        /* Garante que o footer ocupe toda a largura da tela */
+        z-index: 1000;
+        /* Ajusta o z-index conforme necessário */
+    }
+}

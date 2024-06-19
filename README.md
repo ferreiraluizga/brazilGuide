@@ -1,2 +1,2 @@
-# brazilGuide
-Blog de ajuda à estrangeiros
+# Brazil Guide
+Blog de ajuda à estrangeiros no Brasil
