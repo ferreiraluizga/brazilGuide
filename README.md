@@ -6,6 +6,6 @@ Desenvolvido em HTML, CSS, JS e Bootstrap 5.3
 
 ## Funcionamento
 
-Site: https://brazil-guide.vercel.app/
+Site: https://brazilguide.vercel.app/
 <br><br>
 ![Logo do GitHub](https://github.com/ferreiraluizga/brazilGuide/raw/main/brazilGuideWallpaper.png)
